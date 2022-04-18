@@ -258,6 +258,9 @@ button.search-button{
     outline: none;
     background-color: transparent;
 }
+button.search-button svg{
+    margin-top: -4px;
+}
 .lang-box{
     height: 40px;
     display: flex;

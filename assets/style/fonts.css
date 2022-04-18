@@ -18,8 +18,8 @@
 
 @font-face {
   font-family: 'Arial Th';
-  src: url('ArialTh.woff2') format('woff2'),
-      url('ArialTh.woff') format('woff');
+  src: url('../fonts/ArialTh.woff2') format('woff2'),
+      url('../fonts/ArialTh.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -27,8 +27,8 @@
 
 @font-face {
   font-family: 'Lato';
-  src: url('Lato-Italic.woff2') format('woff2'),
-      url('Lato-Italic.woff') format('woff');
+  src: url('../fonts/Lato-Italic.woff2') format('woff2'),
+      url('../fonts/Lato-Italic.woff') format('woff');
   font-weight: normal;
   font-style: italic;
   font-display: swap;
@@ -45,8 +45,8 @@
 
 @font-face {
   font-family: 'Heebo';
-  src: url('Heebo-Regular.woff2') format('woff2'),
-      url('Heebo-Regular.woff') format('woff');
+  src: url('../fonts/Heebo-Regular.woff2') format('woff2'),
+      url('../fonts/Heebo-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -54,8 +54,8 @@
 
 @font-face {
   font-family: 'Lato';
-  src: url('Lato-Black.woff2') format('woff2'),
-      url('Lato-Black.woff') format('woff');
+  src: url('../fonts/Lato-Black.woff2') format('woff2'),
+      url('../fonts/Lato-Black.woff') format('woff');
   font-weight: 900;
   font-style: normal;
   font-display: swap;
@@ -81,8 +81,8 @@
 
 @font-face {
   font-family: 'Arial GEO';
-  src: url('ArialGEOBold.woff2') format('woff2'),
-      url('ArialGEOBold.woff') format('woff');
+  src: url('../fonts/ArialGEOBold.woff2') format('woff2'),
+      url('../fonts/ArialGEOBold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -117,8 +117,8 @@
 
 @font-face {
   font-family: 'Lato Hairline';
-  src: url('Lato-HairlineItalic.woff2') format('woff2'),
-      url('Lato-HairlineItalic.woff') format('woff');
+  src: url('../fonts/Lato-HairlineItalic.woff2') format('woff2'),
+      url('../fonts/Lato-HairlineItalic.woff') format('woff');
   font-weight: 300;
   font-style: italic;
   font-display: swap;
