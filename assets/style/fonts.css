@@ -157,7 +157,7 @@
     font-family: 'icomoon';
     src:  url('../fonts/icomoon.eot?obrt9p');
     src:  url('../fonts/icomoon.eot?obrt9p#iefix') format('embedded-opentype'),
-      url('../fonts/icomoon.ttf?obrt9p') format('truetype'),
+      /* url('../fonts/icomoon.ttf?obrt9p') format('truetype'), */
       url('../fonts/icomoon.woff?obrt9p') format('woff'),
       url('../fonts/icomoon.svg?obrt9p#icomoon') format('svg');
     font-weight: normal;
