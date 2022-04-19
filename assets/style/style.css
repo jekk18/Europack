@@ -523,6 +523,9 @@ button.search-button svg{
     padding-bottom: 5px;
     transition: 0.4s;
 }
+.see-2{
+    margin-top: 65px;
+}
 .see-all-link::before{
     position: absolute;
     content: "";
@@ -731,7 +734,7 @@ button.search-button svg{
 }
 .news-text-box{
     padding-left: 35px;
-    padding-top: 30px;
+    padding-top: 42px;
 }
 .news-text-box .time{
     display: flex;
