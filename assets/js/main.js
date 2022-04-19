@@ -4,7 +4,9 @@ $('.main-slider').slick({
     // infinite: true,
     prevArrow:false,
     nextArrow:false,
-    dots: true
+    dots: true,
+    autoplay:true,
+    autoplaySpeed:4000
   });
 
   
