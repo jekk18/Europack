@@ -13,3 +13,9 @@ $('.main-slider').slick({
   $(document).ready(function() {
     $(".slick-dots li button").text(" ");
  });
+
+
+ $(document).on('click', '.bottom-navbar ul li ', function(){
+   console.log("click")
+  $(this).addClass('colored').siblings().removeClass('colored');
+});
