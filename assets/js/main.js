@@ -28,6 +28,10 @@ $('.main-slider').slick({
   $(this).addClass('colored').siblings().removeClass('colored');
 });
 
+$(document).on('click', '.close-btn', function(){
+  $(".search-input").val(" "); 
+});
+
 $('.count').each(function () {
   $(this).prop('Counter',0).animate({
       Counter: $(this).text()
