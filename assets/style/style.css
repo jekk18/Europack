@@ -1006,16 +1006,13 @@ footer{
     line-height: 32px;
     transition: 0.2s;
 }
-.adv-link:hover span{
-    color: #1860A2;
-}
 .adv-link:hover span svg{
     transition: 0.3s;
 }
-.adv-link:hover span svg path{
-    stroke: #1860A2;
-   
+.adv-link:hover span svg{
+    transform: translateX(10px);
 }
+ 
 /* Footer adv */
 
 /* Footer */
@@ -1819,7 +1816,7 @@ footer{
     padding-right: 10%;
     line-height: 28px;
     font-size: var(--title-font-2);
-    font-weight: 500;
+    font-weight: 600;
     font-family: 'Heebo';
     height: 57px;
     overflow: hidden;
@@ -2197,7 +2194,7 @@ footer{
 /* Products-det */
 .tab-img-products{
     height: 432px;
-    width: 100%;
+    width: 107%;
     position: relative;
     border-radius: 8px;
 }
@@ -2258,7 +2255,7 @@ footer{
      width: 100%;
      display: flex;
      flex-direction: column;
-     padding-left: 46px;
+     padding-left: 72px;
  }
  .container-name{
     font-size: var(--title-font);
