@@ -68,3 +68,33 @@ function myFunction(imgs) {
 
   expandImg.parentElement.style.display = "block";
 }
+
+// $('.list-ul li').filter(function (index) { 
+//   return $(this).children().length < 2; 
+// }).remove('.list-ul li span');
+
+  
+$(document).ready(function() {
+  var list = document.querySelectorAll(".list-ul li");
+  for(var i = 0; i<list.length; i++){
+    if($(list[i]).children().length<3){
+      $(list[i]).children("span").css("display", "none");
+    }
+}
+});
+
+
+$(document).on('click', '.list-ul li > span', function(){
+  const $item = $(this).closest('.list-ul li');
+  if (!$item.hasClass('opened')) { 
+    $item.parents('ul').first().children().removeClass('opened');
+    $item.addClass('opened');
+  } 
+  else{
+    $item.removeClass('opened');
+  }
+
+});
+
+ 
+
