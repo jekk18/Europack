@@ -34,7 +34,7 @@ $('.main-slider').slick({
 
 
  $(document).on('click', '.bottom-navbar ul li ', function(){
-   console.log("click")
+  
   $(this).addClass('colored').siblings().removeClass('colored');
 });
 
@@ -58,22 +58,14 @@ $('.count').each(function () {
 
 
 function myFunction(imgs) {
-  
   var expandImg = document.getElementById("expandedImg");
   var tabFancy = document.getElementById("tab-fancy");
- 
   expandImg.src = imgs.src;
   tabFancy.href = imgs.src;
-   
-
   expandImg.parentElement.style.display = "block";
 }
 
-// $('.list-ul li').filter(function (index) { 
-//   return $(this).children().length < 2; 
-// }).remove('.list-ul li span');
 
-  
 $(document).ready(function() {
   var list = document.querySelectorAll(".list-ul li");
   for(var i = 0; i<list.length; i++){
@@ -87,8 +79,8 @@ $(document).ready(function() {
 $(document).on('click', '.list-ul li > span', function(){
   const $item = $(this).closest('.list-ul li');
   if (!$item.hasClass('opened')) { 
-    $item.parents('ul').first().children().removeClass('opened');
-    $item.addClass('opened');
+        $item.parents('ul').first().children().removeClass('opened');
+        $item.addClass('opened');
   } 
   else{
     $item.removeClass('opened');
@@ -96,5 +88,11 @@ $(document).on('click', '.list-ul li > span', function(){
 
 });
 
- 
+//  $(document).on('click', '.list-ul li  span', function(){
+//   const item = $(this).closest('.list-ul li');
+//    for(var i = 0; i < item.length; i++){
+//     $(item[i]).toggleClass('opened');                             
+//     $(item[i]).siblings().removeClass("opened");
+//    }
 
+// });
