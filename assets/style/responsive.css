@@ -12,3 +12,587 @@
         padding-left: 50px;
     }
 }
+
+@media (max-width: 1399px){
+    :root{
+        --about-link-read-more:18px;
+        --title-font-2: 18px;
+        --text-font: 16px;
+        --footer-links-font:18px;
+        --font-16: 16px;
+        --title-font: 26px;
+        --adv-font: 24px;
+        --adv-contact-font: 32px;
+        --adv-text-font: 20px;
+        --see-all-font: 20px;
+        --nav-links-font: 14px;
+        --search-font: 12px;
+        --lang-font: 18px;
+        --banner-height: 435px;
+        --section-padding: 80px 0;
+        --b-r-c-font: 16px;
+        --person-name: 24px;
+        --person-special: 20px;
+        --person-contact-link: 18px;
+        --contact-font-number: 16px;
+        --contact-input-font: 16px;
+        --c-components-title: 18px;
+        --c-components-text: 16px;
+    }
+    .header{
+        height: 145px;
+    }
+    .h-bg-1{
+        height: 65px;
+    }
+    .h-bg-2{
+        height: 80px;
+    }
+    .flexy-container{
+        height: 145px;
+    }
+    .logo{
+        width: 100px;
+        height: 80px;
+    }
+    .navigation-menu{
+        padding-left: 60px;
+    }
+    .contact-links{
+        width: 650px;
+    }
+    .contact-links li:before{
+        right: -65px;
+    }
+    .bottom-navbar ul li{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .bottom-navbar ul li:before{
+        right: -22px;
+    }
+    .social-links li a{
+        font-size: 20px;
+    }
+    .bottom-navbar ul li .sub-menu .sub-menu-links a{
+        padding: 15px 45px;
+    }
+    main{
+        margin-top: 145px;
+    }
+    .padding-b{
+        padding-bottom: 80px;
+    }
+    .important-title{
+        margin-bottom: 80px;
+    }
+    .important-title h1{
+        line-height: 28px;
+    }
+    .product-items{
+        gap: 0 20px;
+    }
+    .p-item{
+        width: calc(( 100% - 80px) / 5);
+        height: 320px;
+        margin-bottom: 22px;
+    }
+    .front-item img{
+        height: 250px;
+    }
+    .front-item .read-more-box{
+        height: calc(100% - 244px);
+    }
+    .read-more-box .title{
+        margin-top: 15px;
+    }
+    .about-section{
+        overflow-x: initial;
+    }
+    .about-image{
+        height: 400px;
+    }
+    .absolute-position .text-box-h{
+        padding: 40px 54px 40px 40px;
+    }
+    .absolute-position .text-box-h h2{
+        line-height: 28px;
+        max-height: 82px;
+        margin-bottom: 15px;
+    }
+    .absolute-position .about-text{
+        max-height: 102px;
+        line-height: 26px;
+        margin-bottom: 20px;
+    }
+    .popular-product-text h1{
+        line-height: 28px;
+        max-height: 52px;
+        margin-bottom: 30px;
+    }
+    .popular-product-text .text{
+        line-height: 26px;
+        max-height: 74px;
+    }
+    .position-r::before{
+        bottom: 55px;
+    }
+    .row-height{
+        height: 380px;
+    }
+    .popular-product-img{
+        height: 380px;
+    }
+    .footer-adv2{
+        margin-top: 80px!important;
+    }
+    .news-img-box{
+        height: 300px;
+    }
+    .news-section::after {
+        bottom: 80px;
+        width: 25.2%;
+        height: 80px;
+    }
+    .news-text-box .time span{
+        line-height: 40px;
+        font-size: 26px;
+    }
+    .news-text-box .time span:first-child{
+        font-size: 42px;
+    }
+    .news-text-box h2 {
+        line-height: 28px;
+        max-height: 52px;
+        margin-bottom: 30px;
+    }
+    .news-text-box .text {
+        line-height: 26px;
+        max-height: 76px;
+    }
+    .see-2{
+        margin-top: 40px;
+    }
+    .footer-cont {
+        padding-bottom: 60px;
+        padding-top: 20px;
+    }
+    .adv-link span svg{
+        width: 50px;
+    }
+    .adv-text h2{
+        margin-bottom: 15px;
+        line-height: 28px;
+    }
+    .adv-text .text{
+        line-height: 28px;
+        max-height: 53px;
+    }
+}
+
+@media (max-width: 1199px){
+    :root{
+        --banner-height: 380px;
+        --title-font: 24px;
+        --title-font-2: 16px;
+        --text-font: 14px;
+        --about-link-read-more: 16px;
+        --see-all-font: 16px;
+        --adv-font: 22px;
+        --adv-contact-font: 28px;
+        --adv-text-font: 18px;
+        --footer-links-font: 16px;
+
+    }
+    .header {
+        height: 125px;
+    }
+    .h-bg-1 {
+        height: 55px;
+    }
+    .h-bg-2 {
+        height: 70px;
+    }
+    .flexy-container {
+        height: 125px;
+    }
+    .contact-links {
+        width: 550px;
+    }
+    .contact-links li:before {
+        right: -45px;
+    }
+    .logo {
+        width: 80px;
+        height: 65px;
+    }
+    .navigation-menu{
+        padding-left: 50px;
+    }
+    .search-box{
+        width: 160px;
+    }
+    .search-box form input{
+        height: 35px;
+    }
+    .lang-box .line{
+        height: 85%;
+        margin: 0 10px;
+    }
+    button.search-button svg {
+        margin-top: -7px;
+        width: 18px;
+    }
+    .bottom-navbar ul li{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .bottom-navbar ul li:before{
+        right: -17px;
+    }
+    main{
+        margin-top: 125px;
+    }
+    .product-items{
+        gap: 30px;
+        justify-content: center;
+    }
+    .p-item:nth-child(2),
+    .p-item:nth-child(4),
+    .p-item:nth-child(7),
+    .p-item:nth-child(9){
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .p-item{
+        margin-bottom: 0;
+        width: calc(( 100% - 90px) / 4);
+    }
+    .about-image {
+        height: 360px;
+    }
+    .absolute-position .text-box-h h2 {
+        line-height: 24px;
+        max-height: 70px;
+    }
+    .absolute-position .about-text {
+        max-height: 92px;
+        line-height: 24px;
+        margin-bottom: 15px;
+    }
+    .absolute-pos {
+        padding-left: 20px;
+    }
+    .popular-product-text{
+        padding-top: 40px;
+    }
+    .popular-product-text h1 {
+        line-height: 24px;
+        max-height: 46px;
+        margin-bottom: 20px;
+    }
+    .popular-product-text .text {
+        line-height: 24px;
+        max-height: 68px;
+    }
+    .popular-product-img,.row-height {
+        height: 300px;
+    }
+    .position-r::before {
+        bottom: 40px;
+    }
+    .news-section::before{
+        height: 46px;
+        width: 347px;
+    }
+    .news-text-box .time{
+        margin-bottom: 20px;
+    }
+    .news-text-box .time span:first-child {
+        font-size: 36px;
+    }
+    .news-text-box .time span {
+        line-height: 26px;
+        font-size: 22px;
+    }
+    .news-text-box {
+        padding-left: 18px;
+        padding-top: 36px;
+    }
+    .news-text-box h2 {
+        line-height: 24px;
+        max-height: 45px;
+        margin-bottom: 20px;
+    }
+    .news-img-box {
+        height: 250px;
+    }
+    .news-section::after {
+        bottom: 80px;
+        width: 23.2%;
+        height: 70px;
+    }
+    .adv-text .text {
+        line-height: 24px;
+        max-height: 46px;
+    }
+    .adv-text h2 {
+        margin-bottom: 15px;
+        line-height: 24px;
+    }
+}
+@media (max-width: 991px){
+    :root{
+        --banner-height: 346px;
+        --section-padding: 50px 0;
+        --title-font: 20px;
+        --font-16: 14px;
+        --see-all-font: 12px;
+        --about-link-read-more: 14px;
+        --adv-font: 18px;
+        --adv-text-font: 14px;
+        --adv-contact-font: 16px;
+        --adv-text-font: 14px;
+        --footer-links-font: 14px;
+    }
+    .navigation-menu{
+        display: none;
+    }
+    .header, .h-bg-1,.flexy-container{
+        height: 90px;
+    }
+    .flexy-container{
+        justify-content: space-between;
+    }
+    .h-bg-2{
+        height: 0;
+    }
+   
+    .logo {
+        width: 74px;
+        height: 61px;
+        margin-top: initial;
+    }
+    .logo-bg{
+        display: none;
+    }
+    .burger-icon{
+        display: block;
+        cursor: pointer;
+    }
+    .burger-lines{
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        width: 30px;
+        
+    }
+    .burger-line{
+        width: 100%;
+        height: 3px;
+        border-radius: 2px;
+        background-color: #E3662A;
+        margin-top: 5px;
+        transition: 0.3s;
+    }
+    .burger-line:first-child{
+        margin-top: 0;
+        width: 22px;
+        transform: translateX(8px);
+    }
+    main{
+        margin-top: 90px;
+    }
+    .slick-dots{
+        bottom: 10px;
+    }
+    .slick-dots li{
+        margin: 0 4px;
+    }
+    .slick-dots li button{
+        width: 69px;
+        height: 3px;
+    }
+    
+    .slick-dots li.slick-active button{
+        width: 90px;
+        background-color: #E3662A;
+    }
+    .padding-b{
+        padding-bottom: 50px;
+    }
+    .product-items {
+        gap: 15px;
+    }
+    .p-item{
+        width: calc(( 100% - 45px) / 4);
+        height: 235px;
+        border-radius: 5px;
+    }
+    .front-item img {
+        height: 186px;
+    }
+    .front-item .read-more-box {
+        height: calc(100% - 186px);
+    }
+    .front-item .read-more-box{
+        margin-top: 0;
+        display: flex;
+        justify-content: center;
+        padding-left: 12px;
+    }
+    .read-more-links{
+        display: none;
+    }
+    .important-title{
+        margin-bottom: 40px;
+    }
+    .important-title .line-1 {
+        width: 70px;
+        height: 3px;
+    }
+    .important-title h1{
+        margin: 0 15px;
+    }
+    .read-more-box .title{
+        margin: 0;
+    }
+    .see-all-link{
+        margin-top: 30px;
+    }
+    .about-image {
+        height: 230px;
+        padding-right: 28px;
+        border-radius: 5px;
+    }
+    .about-image img{
+        border-radius: 5px;
+    }
+    .absolute-position .text-box-h {
+        padding: 21px 35px 21px 18px;
+    }
+    .absolute-position .text-box-h h2 {
+        line-height: 22px;
+        max-height: 42px;
+        margin-bottom: 10px;
+    }
+    .absolute-position .about-text {
+        max-height: 58px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+    .about-position-box:after {
+        height: 28px;
+    }
+    .popular-product-text h1 {
+        line-height: 22px;
+        max-height: 64px;
+        margin-bottom: 10px;
+    }
+    .popular-product-text .text {
+        line-height: 20px;
+        max-height: 78px;
+    }
+    .popular-product-img, .row-height {
+        height: 252px;
+    }
+    .popular-product-text {
+        padding-top: 23px;
+    }
+    .position-r::before {
+        bottom: 23px;
+        height: 27px;
+    }
+    .news-section::before {
+        height: 28px;
+        width: 195px;
+    }
+    .news-img-box {
+        height: 173px;
+        border-radius: 4px;
+    }
+    .news-img-box img{
+        border-radius: 4px;
+    }
+    
+    .news-text-box .time span:first-child {
+        font-size: 24px;
+        margin-right: 6px;
+    }
+    .news-text-box .time span {
+        line-height: 16px;
+        font-size: 14px;
+    }
+    .news-text-box .time{
+        margin-bottom: 10px;
+    }
+    .news-text-box {
+        padding-left: 0px;
+        padding-top: 15px;
+        margin-left: -26px;
+    }
+    .news-section::after {
+        bottom: 54px;
+        width: 32.2%;
+        height: 70px;
+    }
+    .news-text-box h2{
+        margin-bottom: 10px;
+    }
+    .see-all-link2 {
+        margin-top: 15px;
+    }
+    .news-position{
+        padding-right: 37px;
+    }
+    .footer-adv2 {
+        margin-top: 50px!important;
+    }
+    .adv-text{
+        padding-left: initial;
+    }
+    .adv-text h2 {
+        margin-bottom: 10px;
+        line-height: 18px;
+    }
+    .adv-text .text {
+        line-height: 22px;
+        max-height: 41px;
+    }
+    .adv-link span:first-child{
+        margin-right: 30px;
+        line-height: 25px;
+    }
+    .adv-link span svg {
+        width: 32px;
+    }
+    .footer-cont {
+        padding-bottom: 40px;
+        padding-top: 0px;
+    }
+    .footer-cont:before{
+        clip-path: polygon(0 0, 99% 0, 77% 100%, 0% 100%);
+    }
+    .create{
+        display: none;
+    }
+    
+    .footer{
+        padding: 20px 0;
+    }
+    .footer-links ul{
+        padding: 0;
+        margin: 0;
+    }
+    .footer-links ul li a{
+        line-height: 21px;
+    }
+    .footer-links ul li::before{
+        width: 5px;
+        height: 5px;
+        right: -20px;
+    }
+    .footer-links ul li{
+        margin-right: 32px;
+    }
+}
