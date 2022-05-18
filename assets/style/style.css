@@ -844,6 +844,7 @@ main{
 }
 .popular-slider-item{
     position: relative;
+    overflow-x: hidden;
 }
 /* Popular product section */
 
