@@ -40,10 +40,25 @@ $('.main-slider').slick({
     autoplaySpeed:4000
   });
   
+
+  $(window).scroll(function(){
+    var headSticky = $('.header-pos-container'),
+        scroll = $(window).scrollTop();
+  
+    if (scroll >= 1) headSticky.addClass('header-shadow');
+    else headSticky.removeClass('header-shadow');
+  });
+ 
   $(document).ready(function() {
     $(".slick-dots li button").text(" ");
  });
 
+ $(document).on('click', '.burger-lines ', function(){
+  $('.burg-menu').toggleClass('active-burger');
+  $('.burger-lines').toggleClass('active-close');
+  $('body').toggleClass('fix');
+  $(window).scrollTop(0)
+});
 
  $(document).on('click', '.bottom-navbar ul li ', function(){
   $(this).addClass('colored').siblings().removeClass('colored');
