@@ -1841,6 +1841,17 @@ footer{
     margin-bottom: 20px;
     transition: 0.3s;
 }
+.video-item a .img-box::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    z-index: 3;
+}
 .video-item a .img-box img{
     width: 100%;
     height: 100%;
@@ -1854,7 +1865,7 @@ footer{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 2;
+    z-index: 4;
     transition: 0.3s;
 }
 .video-item a .img-box svg path{

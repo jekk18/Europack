@@ -37,7 +37,43 @@ $('.main-slider').slick({
     slidesToShow: 6,
     slidesToScroll: 1,
     autoplay:true,
-    autoplaySpeed:4000
+    autoplaySpeed:4000,
+    responsive: [
+      {
+        breakpoint: 1199,
+        settings: {
+          centerMode: true,
+          centerPadding: '0',
+          slidesToShow: 5
+        }
+      },
+      {
+        breakpoint: 991,
+        settings: {
+          centerMode: true,
+          centerPadding: '60px',
+          slidesToShow: 4
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          centerPadding: '40px',
+          slidesToShow: 3
+        }
+      },
+      {
+        breakpoint: 574,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          centerPadding: '90px',
+          slidesToShow: 2
+        }
+      }
+    ]
   });
   
 
