@@ -2683,4 +2683,7 @@ footer{
      width: 91%;
      margin-bottom: 25px;
  }
+ .filter-button{
+     display: none;
+ }
 /* Products */
