@@ -147,14 +147,14 @@ $(document).on("click", ".filter-button",function(){
   var filter = $('.select-categories-box');
   var filterClose = $('.filter-title-close');
   $(this).css("display", "none");
-  filterClose.css("maxHeight", "88px");
+  filterClose.css("maxHeight", "88px").css("marginBottom", "26px");
   filter.addClass('addHeight');
 });
 $(document).on("click", ".filter-close",function(){
   var filterClose = $('.filter-title-close');
   var filter = $('.select-categories-box');
   var filterBtn = $('.filter-button');
-  filterClose.css("maxHeight", "0");
+  filterClose.css("maxHeight", "0").css("marginBottom", "0");
   filter.removeClass('addHeight');
   filterBtn.css("display", "flex");
 });
