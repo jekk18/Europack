@@ -2471,6 +2471,9 @@ footer{
   /* SLIDER margin */
 /* Products-det */
 /* Products */
+.filter-title-close, .filter-button{
+    display: none;
+}
 .products-container{
     width: 100%;
     display: flex;
@@ -2628,7 +2631,7 @@ footer{
     font-weight: bold;
 }
 .list-ul li span{
-    display: inline-block;
+    /* display: inline-block; */
     float: right;
     transform: rotate(-90deg);
     margin-right: 30px;

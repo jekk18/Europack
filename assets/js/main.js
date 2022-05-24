@@ -51,8 +51,8 @@ $('.main-slider').slick({
         breakpoint: 991,
         settings: {
           centerMode: true,
-          centerPadding: '60px',
-          slidesToShow: 4
+          centerPadding: '0',
+          slidesToShow: 5
         }
       },
       {
@@ -60,8 +60,8 @@ $('.main-slider').slick({
         settings: {
           arrows: false,
           centerMode: true,
-          centerPadding: '40px',
-          slidesToShow: 3
+          centerPadding: '0',
+          slidesToShow: 4
         }
       },
       {
@@ -69,7 +69,7 @@ $('.main-slider').slick({
         settings: {
           arrows: false,
           centerMode: true,
-          centerPadding: '90px',
+          centerPadding: '0',
           slidesToShow: 2
         }
       }
@@ -142,7 +142,22 @@ $(document).ready(function() {
 }
 });
 
-
+ 
+$(document).on("click", ".filter-button",function(){
+  var filter = $('.select-categories-box');
+  var filterClose = $('.filter-title-close');
+  $(this).css("display", "none");
+  filterClose.css("maxHeight", "88px");
+  filter.addClass('addHeight');
+});
+$(document).on("click", ".filter-close",function(){
+  var filterClose = $('.filter-title-close');
+  var filter = $('.select-categories-box');
+  var filterBtn = $('.filter-button');
+  filterClose.css("maxHeight", "0");
+  filter.removeClass('addHeight');
+  filterBtn.css("display", "flex");
+});
 $(document).on('click', '.list-ul li > span', function(){
   const $item = $(this).closest('.list-ul li');
   if (!$item.hasClass('opened')) { 
