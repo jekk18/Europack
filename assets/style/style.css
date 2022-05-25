@@ -877,6 +877,20 @@ main{
     background: #E3662A;
     z-index: 1;
 }
+.nn-section::after{
+    display: none;
+}
+.news-slider-2-item::after{
+    position: absolute;
+    content: "";
+    height: 143px;
+    border-bottom-right-radius: 8px;
+    bottom: 5px;
+    width: 25.2%;
+    left: 0;
+    background: #E3662A;
+    z-index: 1;
+}
 .news-img-box{
     height: 346px;
     position: relative;
@@ -892,11 +906,10 @@ main{
     background: #E3662A;
     z-index: 1;
 } */
-.news-sliders-2 {
-    z-index: 5;
-}
+ 
 .news-slider-2-item{
     width: 100%;
+    position: relative;
 }
 .news-img-box img{
     width: 100%;

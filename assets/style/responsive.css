@@ -157,6 +157,11 @@
         width: 25.2%;
         height: 80px;
     }
+    .news-slider-2-item::after{
+        height: 80px;
+        border-bottom-right-radius: 8px;
+         
+    }
     .news-text-box .time span{
         line-height: 40px;
         font-size: 26px;
@@ -1048,6 +1053,11 @@
         width: 32.2%;
         height: 70px;
     }
+    .news-slider-2-item::after{
+         
+        height: 70px;
+        
+    }
     .news-text-box h2{
         margin-bottom: 10px;
     }
@@ -1183,7 +1193,7 @@
     .news-section2::after{
         bottom: 35px;
     }
-   
+ 
     .news-text-box h2 {
         line-height: 22px;
     }
@@ -1560,6 +1570,13 @@
         bottom: 30px;
         width: 30.2%;
         height: 58px;
+    }
+    .news-slider-2-item::after{
+        height: 58px; 
+        bottom: 0;
+    }
+    .news-slider-2-item{
+        padding-bottom: 24px;
     }
     /* Album */
     /* Contact */
@@ -2115,6 +2132,9 @@
         margin-right: 10px;
     }
     /* Products */
+    .news-slider-2-item{
+        padding-bottom: 0;
+    }
 }
 @media (max-width:575px){
     :root{
@@ -2247,9 +2267,17 @@
         height: 50px;
         border-bottom-right-radius: 4px;
     }
+    .news-slider-2-item::after{
+        height: 50px;
+        bottom: initial;
+        top: 122px;
+        width: 52.2%;
+    }
     .news-slider-2-item{
         padding-top: 5px;
+        
     }
+     
     .news-text-box{
         padding-top: 0;
         margin-left: 0;
