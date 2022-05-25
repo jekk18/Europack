@@ -1937,7 +1937,7 @@
         margin-right: 0;
     }
     .pagination ul li:last-child a:last-child span {
-        margin-left: 20px;
+        margin-left: 10px;
     }
     .pagination ul li a:first-child span {
         margin-left: 0;
@@ -2512,7 +2512,7 @@
         margin-right: 10px;
     }
     .pagination ul li a:last-child span {
-        margin-left: 10px;
+        margin-left: 0;
     }
     .pagination ul li:first-child{
         margin-left: 0;
