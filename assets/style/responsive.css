@@ -815,6 +815,9 @@
     }
     .burger-container ul{
         padding: 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
     }
     .burger-container ul li{
         margin-bottom: 34px;
