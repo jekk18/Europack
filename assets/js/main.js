@@ -19,7 +19,16 @@ $('.main-slider').slick({
     autoplay:true,
     autoplaySpeed:4000
   });
-
+  $('.news-sliders-2').slick({
+    nextArrow: false,
+    prevArrow: false,
+    // infinite: true,
+    prevArrow:false,
+    nextArrow:false,
+    dots: false,
+    autoplay:true,
+    autoplaySpeed:4000
+  });
   $('.news-slider').slick({
     prevArrow:$('#prev'),
     nextArrow:$('#next'),
