@@ -134,13 +134,39 @@ $(document).ready(function(){
 });
 
 function myFunction(imgs) {
-  var expandImg = document.getElementById("expandedImg");
-  var tabFancy = document.getElementById("tab-fancy");
-  expandImg.src = imgs.src;
-  tabFancy.href = imgs.src;
-  expandImg.parentElement.style.display = "block";
+  // var expandImg = document.getElementById("expandedImg");
+  // var tabFancy = document.getElementById("tab-fancy");
+  // var oldImg = expandImg.src;
+  // expandImg.src = imgs.src;
+  // tabFancy.href = imgs.src;
+  // imgs.src = oldImg;
+  // expandImg.parentElement.style.zIndex = "3";
+  // console.log(imgs.src)
+  let newImg = imgs.src;
+  let imgCont = $('.fancy-gallery-items a');
+   
+  let img = $('.fancy-gallery-items a img');
+  let oldImg = img.attr('src');
+  imgCont.attr('href', newImg );
+  img.attr('src', newImg);
+  imgs.src = oldImg;
+  console.log(img.attr('src'));
 }
 
+
+
+$(document).ready(function() {
+   $('.tab-img-item').click(function(){
+    // $(this).data('img');
+    $('.tab-img-item').removeClass('active');
+    $(this).addClass('active');
+    $('.fancy-gallery-items a').removeClass('active');
+    $('.fancy-gallery-items .' + $(this).data('img')).addClass('active');
+    // console.log($(this).data('img'));
+   });
+ 
+});
+ 
 
 $(document).ready(function() {
   var list = document.querySelectorAll(".list-ul li");
